@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karşılıklı Zar Atma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="game-roll">
+
+    <div class="puan">
+        <h3 id="side-name">Player...</h3>
+        <h2 id="p1-puan">Puan...</h2>
+    </div>
+
+    <div class="puan2">
+        <h3 id="side-name2">Player...</h3>
+        <h2 id="p2-puan">Puan...</h2>
+    </div>
+
+    <div class="header">
+        <h1 style="text-transform:uppercase">Welcome to the game for ages</h1>
+        <p style="text-transform:capitalize ;">click roll the decide who will be the winner</p>
+        <div class="players">
+            <div class="first-player">
+                <label for="">Player One</label>
+                <input id="p1" type="text">
+                <button id="submit1" type="submit">Submit</button>
+            </div>
+            <div class="second-player">
+                <label for="">Player Two</label>
+                <input id="p2" type="text">
+                <button id="submit2" type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="roll">
+            <button class="roll-click">Click To Roll</button>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="zarlar">
+            <div class="left">
+                <p id="change-name1">Player One</p>
+                <div id="skl1" class="sekil">
+                    ?
+                </div>
+            </div>
+            <div class="right">
+                <p id="change-name2">Player Two</p>
+                <div id="skl2" class="sekil">
+                    ?
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"
+        integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
